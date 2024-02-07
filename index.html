@@ -1,0 +1,31 @@
+<div id="picsel">
+  <div class="sec"><span onclick="document.getElementById('picsel').style.visibility='hidden'" style="cursor: pointer;padding: 5px 5px 5px 0px;">&times;</span><input placeholder="Image URL" id="imgss" /></div>
+  <div class="sec" onclick="crImg()">Create Image</div>
+</div>
+<div id="rcmenu">
+  <div class="opt" onclick="cImg()">Create image...</div>
+</div>
+<select id="sel">
+  <option disabled>Font</option>
+  <option>sans-serif</option>
+  <option>serif</option>
+  <option>monospace</option>
+  <option>cursive</option>
+</select>
+<select id="sel-TC">
+  <option disabled>Text Color</option>
+  <option>Black</option>
+  <option>Green</option>
+  <option>Red</option>
+  <option>Blue</option>
+  <option>Purple</option>
+  <option>Orange</option>
+  <option>Custom...</option>
+</select>
+<select id="sel-STY">
+  <option>Regular</option>
+  <option>Italic</option>
+  <option>Bold</option>
+  <option>Underline</option>
+</select>
+<div contenteditable="true" id="textarea"></div>
