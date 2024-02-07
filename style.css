@@ -1,0 +1,69 @@
+#picsel{
+  user-select: none;
+  cursor: pointer;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 300px;
+  font-family: sans-serif;
+  visibility: hidden;
+  position: absolute;
+  background-color: white;
+}
+.sec{
+  padding: 10px;
+}
+.sec:hover{
+  background-color: lightgrey;
+}
+input{
+  width: 90%;
+}
+input:focus{
+  outline: none;
+}
+#rcmenu{
+  user-select: none;
+  cursor: pointer;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 300px;
+  font-family: sans-serif;
+  visibility: hidden;
+  position: absolute;
+  background-color: white;
+}
+.opt{
+  padding: 10px;
+}
+.opt:hover{
+  background-color: lightgrey;
+}
+#textarea{
+  font-family: sans-serif;
+  border: 1px solid black;
+  resize: none;
+  border-radius: 0px;
+  margin-top: 80px;
+  height: calc(100vh - 125px);
+  width: calc(100vw - 42px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 20px 20px 20px;
+}
+#textarea:focus{
+  outline: none;
+}
+select{
+  padding: 10px;
+  font-family: sans-serif;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+select:hover{
+  background-color: lightgrey;
+}
+select:focus{
+  outline: none;
+}
