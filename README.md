@@ -8,3 +8,4 @@ Change color, type (bold, italic, etc.), font
 
 ## To Do
 - [ ] Add font size change
+- [ ] Fix formatting errors :(
